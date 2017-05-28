@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/home/jeet/Documents/Remindly-master/app/build/intermediates/exploded-aar/com.getbase/floatingactionbutton/1.9.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="f2b8a750df2a5d485d0c40b379b44371c5e6d98d">
+        <dex dex="/home/jeet/Documents/Remindly-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.getbase-floatingactionbutton-1.9.0_10bbd458625f4f9d35c2e8661e1f6811e0856ca1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/jeet/Documents/Remindly-master/app/build/intermediates/exploded-aar/com.amulyakhare/com.amulyakhare.textdrawable/1.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="d237556caead5b93d97e18a071059a2c0045978e">
+        <dex dex="/home/jeet/Documents/Remindly-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.amulyakhare-com.amulyakhare.textdrawable-1.0.1_1199c4499d7a3e3e8dabeef577cd24256a4bef87/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/jeet/Documents/Remindly-master/app/build/intermediates/exploded-aar/com.android.volley/volley/1.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="2cd4b982617e544728de0782d718a58ce1b06e3f">
+        <dex dex="/home/jeet/Documents/Remindly-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.volley-volley-1.0.0_c732a14a3f6d5f47f48fb5662055877b4d13c0e7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/jeet/Music/Remindly-master/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/22.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="e0b0c35d02308b270015a74cada4887e2e49b889">
+        <dex dex="/home/jeet/Music/Remindly-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-22.1.1_196520f69585a1c01bb203b97fbed6cba4689e60/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/jeet/Documents/Remindly-master/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="05d20d815be2eb81f3b453d46a4ca7c1213e81d5">
+        <dex dex="/home/jeet/Documents/Remindly-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_f10ce25336e8d0f687a1b22ec879a121788cf91f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/jeet/Documents/Remindly-master/app/build/intermediates/exploded-aar/com.bignerdranch.android/recyclerview-multiselect/0.2/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="8a90606ee73178bb9b1a336dc36ae3ec25ad33ea">
+        <dex dex="/home/jeet/Documents/Remindly-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.bignerdranch.android-recyclerview-multiselect-0.2_914a5dbd2dd2b4046bcce6ae9663547a96bf87d2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/jeet/Music/Remindly-master/app/build/intermediates/exploded-aar/com.wdullaer/materialdatetimepicker/1.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="6aaf52b8d6b8279df4de274463454ca11944fec6">
+        <dex dex="/home/jeet/Music/Remindly-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.wdullaer-materialdatetimepicker-1.2.1_b70bf98304e7988ee4de8a5fe64ed28d03873179/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/jeet/Documents/Remindly-master/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/jars/libs/internal_impl-22.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="9e070ad32b2700b0343e8e0cccc437733d91ba3a">
+        <dex dex="/home/jeet/Documents/Remindly-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-22.1.1_5e620514b4a6ad7f44a2f2ce61028dbc214ac75b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/jeet/Music/Remindly-master/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="1273186395d4d9b0cbbc1cb7f146c35a88633b17">
+        <dex dex="/home/jeet/Music/Remindly-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_cfff07556548239eb1f47ec514abc9c5de580c3a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/jeet/Documents/Remindly-master/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="c95ba8152923e4872e86a82cfcba9a51c0214328">
+        <dex dex="/home/jeet/Documents/Remindly-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-22.1.1_d9e5ca4d3b79511d41ff57ab81f19ca413ef9d63/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/jeet/Music/Remindly-master/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="e7376bcd5d70563027cfdd1c017367cfb46bf5e1">
+        <dex dex="/home/jeet/Music/Remindly-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_aaa5edee2c461f4ddd5267bddc2d6aa92fb25d04/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/jeet/Music/Remindly-master/app/build/intermediates/exploded-aar/com.bignerdranch.android/recyclerview-multiselect/0.2/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="8a90606ee73178bb9b1a336dc36ae3ec25ad33ea">
+        <dex dex="/home/jeet/Music/Remindly-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.bignerdranch.android-recyclerview-multiselect-0.2_917927314dddbfdcc8690f9a45632d29df323d82/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/jeet/Music/Remindly-master/app/build/intermediates/exploded-aar/com.amulyakhare/com.amulyakhare.textdrawable/1.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="d237556caead5b93d97e18a071059a2c0045978e">
+        <dex dex="/home/jeet/Music/Remindly-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.amulyakhare-com.amulyakhare.textdrawable-1.0.1_a1e776d2c5d87dac3c73583a75409c6ed342b2ce/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/jeet/Documents/Remindly-master/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/22.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="e0b0c35d02308b270015a74cada4887e2e49b889">
+        <dex dex="/home/jeet/Documents/Remindly-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-22.1.1_3f1cc3217998424cb4c928a9c9a684c669880739/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/jeet/Documents/Remindly-master/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="a3ff3c506644c820eb2bdf06e8339f72be578551">
+        <dex dex="/home/jeet/Documents/Remindly-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-22.1.1_f5e88732badfc30c885e3454478ef08225d5425d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/jeet/Documents/Remindly-master/app/build/intermediates/exploded-aar/com.wdullaer/materialdatetimepicker/1.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="6aaf52b8d6b8279df4de274463454ca11944fec6">
+        <dex dex="/home/jeet/Documents/Remindly-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.wdullaer-materialdatetimepicker-1.2.1_6dc498ac7dd27824ae698d3a96b27de782112d7e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/jeet/Music/Remindly-master/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="a3ff3c506644c820eb2bdf06e8339f72be578551">
+        <dex dex="/home/jeet/Music/Remindly-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-22.1.1_317f702282d77c80e7b379ed8c7d98036480d3f5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/jeet/Documents/Remindly-master/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="6d1d980b03c6422bc0f69c4928150f3ac3c8d4b7">
+        <dex dex="/home/jeet/Documents/Remindly-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_697445cc9bcdc4b2cc9643a5915c5d77e8e540ff/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/jeet/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/22.1.1/support-annotations-22.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="01d051a6bfb1218b1db2d3a5af0480ac2c25c42a">
+        <dex dex="/home/jeet/Music/Remindly-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-22.1.1_be77650d829af306b1dbc939a5ff98eb43ac72b6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/jeet/Music/Remindly-master/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="c95ba8152923e4872e86a82cfcba9a51c0214328">
+        <dex dex="/home/jeet/Music/Remindly-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-22.1.1_8febf35e5f2aa6cc4475a8454e5ec858ded37f6a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/jeet/Music/Remindly-master/app/build/intermediates/exploded-aar/com.getbase/floatingactionbutton/1.9.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="f2b8a750df2a5d485d0c40b379b44371c5e6d98d">
+        <dex dex="/home/jeet/Music/Remindly-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.getbase-floatingactionbutton-1.9.0_a96eb858aa3219ea136d607a38318a8b03de2a0b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/jeet/Music/Remindly-master/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/jars/libs/internal_impl-22.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="9e070ad32b2700b0343e8e0cccc437733d91ba3a">
+        <dex dex="/home/jeet/Music/Remindly-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-22.1.1_58d751fc08b0d76db47feef247b2dd357eef0b9a/classes.dex" />
+    </item>
+
+</items>

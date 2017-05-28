@@ -1,0 +1,409 @@
+
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:id="@+id/popupbulletii"
+    android:background="#424242"
+
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:id="@+id/linear"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        android:background="#42A5F5"
+
+        android:orientation="vertical"
+        android:layout_height="170dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:id="@+id/txtItem"
+            android:layout_marginLeft="82dp"
+            android:hint="Description"
+            android:layout_marginTop="20dp"
+            android:textSize="20dp"
+            android:lines="5"
+            android:minLines="5"
+            android:gravity="top|left"
+            android:textColor="@android:color/white"
+            android:scrollHorizontally="false"
+            android:textColorHint="@color/primary_text_disabled_material_dark"
+            android:inputType="textMultiLine"
+            android:layout_marginRight="16dp"
+            android:layout_height="150dp"/>
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:layout_below="@+id/linear"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="25dp"
+        android:id="@+id/ll1"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CANCEL"
+            android:backgroundTint="@color/mdtp_white"
+            android:textColor="@color/primary_dark"
+            android:layout_weight="1"
+            android:id="@+id/submitii"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ADD"
+            android:backgroundTint="@color/mdtp_white"
+            android:textColor="@color/primary_dark"
+            android:layout_weight="1"
+            android:id="@+id/btnAdd"/>
+    </LinearLayout>
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:id="@+id/scrolli"
+
+        android:layout_below="@+id/ll1"
+        android:layout_marginTop="5dp"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:clickable="true"
+                android:onClick="setDate"
+                android:id="@+id/datei"
+                android:background="?android:attr/selectableItemBackground"
+                android:layout_height="52dp">
+
+                <ImageView
+                    android:id="@+id/date_iconi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="32dp"
+                    android:src="@drawable/ic_view_day_grey600_24dp"
+                    android:layout_centerVertical="true" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@id/date_iconi"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/date_texti"
+                        android:textColor="@color/mdtp_white"
+                        android:layout_width="wrap_content"
+                        android:textSize="15dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/date" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:id="@+id/set_datei"
+                        android:textSize="15dp"
+                        android:textColor="@color/mdtp_white"
+                        android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:clickable="true"
+                android:onClick="setTime"
+                android:id="@+id/timei"
+                android:background="?android:attr/selectableItemBackground"
+                android:layout_height="52dp">
+
+                <ImageView
+                    android:id="@+id/time_iconi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="32dp"
+                    android:src="@drawable/ic_access_time_grey600_24dp"
+                    android:layout_centerVertical="true" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@id/time_iconi"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/time_texti"
+                        android:textColor="@color/mdtp_white"
+                        android:layout_width="wrap_content"
+                        android:textSize="15dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/time" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:id="@+id/set_timei"
+                        android:textSize="15dp"
+                        android:textColor="@color/mdtp_white"
+                        android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:id="@+id/repeati"
+                android:layout_height="52dp">
+
+                <ImageView
+                    android:id="@+id/repeat_iconi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="32dp"
+                    android:src="@drawable/ic_sync_grey600_24dp"
+                    android:layout_centerVertical="true" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:orientation="vertical"
+                    android:id="@+id/repeat_lli"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@id/repeat_iconi"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/repeat_texti"
+                        android:textColor="@color/mdtp_white"
+                        android:layout_width="wrap_content"
+                        android:textSize="15dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/repeat" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:id="@+id/set_repeati"
+                        android:textSize="15dp"
+                        android:textColor="@color/mdtp_white"
+                        android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+
+                <Switch
+                    android:id="@+id/repeat_switchi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginLeft="8dp"
+                    android:onClick="onSwitchRepeat"
+                    android:checked="false"
+                    android:textOn="On"
+                    android:textOff="Off"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:id="@+id/RepeatNoi"
+                android:clickable="true"
+                android:onClick="setRepeatNo"
+                android:background="?android:attr/selectableItemBackground"
+                android:layout_height="52dp">
+
+                <ImageView
+                    android:id="@+id/repeat_no_iconi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="32dp"
+                    android:src="@drawable/ic_unfold_more_grey600_24dp"
+                    android:layout_centerVertical="true" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@id/repeat_no_iconi"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/repeat_no_texti"
+                        android:textColor="@color/mdtp_white"
+                        android:layout_width="wrap_content"
+                        android:textSize="15dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/repeat_no" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:id="@+id/set_repeat_noi"
+                        android:textSize="15dp"
+                        android:textColor="@color/mdtp_white"
+                        android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:id="@+id/RepeatTypei"
+                android:clickable="true"
+                android:onClick="selectRepeatType"
+                android:background="?android:attr/selectableItemBackground"
+                android:layout_height="52dp">
+
+                <ImageView
+                    android:id="@+id/repeat_type_iconi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="32dp"
+                    android:src="@drawable/ic_subject_grey600_24dp"
+                    android:layout_centerVertical="true" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@id/repeat_type_iconi"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/repeat_type_texti"
+                        android:textColor="@color/mdtp_white"
+                        android:layout_width="wrap_content"
+                        android:textSize="15dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/repeat_type" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:id="@+id/set_repeat_typei"
+                        android:textSize="15dp"
+                        android:textColor="@color/mdtp_white"
+                        android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:clickable="true"
+
+                android:id="@+id/select"
+                android:background="?android:attr/selectableItemBackground"
+                android:layout_height="52dp">
+
+                <ImageView
+                    android:id="@+id/sound1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="32dp"
+                    android:src="@drawable/ic_add_alert_black_24dp"
+                    android:layout_centerVertical="true" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@id/sound1"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/sound_text"
+                        android:textColor="@color/mdtp_white"
+                        android:layout_width="wrap_content"
+                        android:textSize="15dp"
+                        android:layout_height="wrap_content"
+                        android:text="Select Sound" />
+
+
+
+                </LinearLayout>
+
+            </RelativeLayout>
+            <!--
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Select sound"
+                android:layout_margin="10dp"
+                android:id="@+id/selecti"/>
+                -->
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+    <com.getbase.floatingactionbutton.FloatingActionButton
+        android:id="@+id/starred11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+
+        fab:fab_icon="@drawable/ic_notifications_off_grey600_24dp"
+        fab:fab_colorNormal="@color/accent"
+        fab:fab_colorPressed="@color/fab_pressed"
+        app:fab_size="normal"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="130dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="8dp"/>
+
+    <com.getbase.floatingactionbutton.FloatingActionButton
+        android:id="@+id/starred22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+
+        fab:fab_icon="@drawable/ic_notifications_on_white_24dp"
+        fab:fab_colorNormal="@color/accent"
+        fab:fab_colorPressed="@color/fab_pressed"
+        app:fab_size="normal"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="130dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="8dp"/>
+
+
+
+
+</RelativeLayout>

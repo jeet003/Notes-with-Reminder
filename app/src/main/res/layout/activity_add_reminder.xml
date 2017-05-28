@@ -1,0 +1,205 @@
+
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="@color/mdtp_white"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_height="80dp"
+
+        android:layout_width="match_parent"
+        android:minHeight="?attr/actionBarSize"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:contentInsetLeft="0dp"
+        app:contentInsetStart="16dp"
+
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        android:background="@drawable/imgpsh_fullsize" >
+
+        <EditText
+            android:layout_width="match_parent"
+            android:id="@+id/reminder_title"
+
+            android:hint="TITLE"
+
+            android:lines="1"
+            android:minLines="1"
+            android:gravity="top|left"
+            android:textColor="@android:color/white"
+            android:scrollHorizontally="false"
+            android:textColorHint="@color/primary_text_disabled_material_dark"
+            android:inputType="textMultiLine"
+            android:layout_marginRight="16dp"
+            android:layout_height="wrap_content"/>
+    </android.support.v7.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_below="@+id/toolbar"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        android:id="@+id/add_reminder_layout_top"
+        android:background="#ec407a"
+        android:orientation="vertical"
+        android:layout_height="160dp">
+<!--
+        <EditText
+            android:layout_width="match_parent"
+            android:id="@+id/reminder_title"
+            android:layout_marginLeft="72dp"
+            android:layout_marginTop="10dp"
+            android:hint="TITLE"
+            android:textSize="25dp"
+            android:lines="2"
+            android:minLines="2"
+            android:gravity="top|left"
+            android:textColor="@android:color/white"
+            android:scrollHorizontally="false"
+            android:textColorHint="@color/primary_text_disabled_material_dark"
+            android:inputType="textMultiLine"
+            android:layout_marginRight="16dp"
+            android:layout_height="wrap_content"/>
+            -->
+
+        <EditText
+            android:layout_width="match_parent"
+            android:id="@+id/reminder_desc"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="72dp"
+            android:hint="Description"
+            android:textSize="20dp"
+            android:lines="6"
+            android:minLines="6"
+            android:gravity="top|left"
+            android:textColor="@android:color/white"
+            android:scrollHorizontally="false"
+            android:textColorHint="@color/primary_text_disabled_material_dark"
+            android:inputType="textMultiLine"
+            android:layout_marginRight="16dp"
+            android:layout_height="150dp"/>
+<!--
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add Reminder"
+            android:layout_margin="10dp"
+            android:id="@+id/subbullet"/>
+-->
+    </LinearLayout>
+
+
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_below="@+id/add_reminder_layout_top"
+        android:background="@drawable/toolbar_dropshadow" />
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_below="@+id/add_reminder_layout_top"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="35dp"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+        <com.getbase.floatingactionbutton.AddFloatingActionButton
+            android:id="@+id/add_reminder_bullet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:clickable="true"
+            fab:fab_colorNormal="@color/accent"
+            fab:fab_colorPressed="@color/fab_pressed"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="8dp"
+            android:layout_marginRight="8dp"/>
+
+        <!--
+        <EditText
+            android:id="@+id/txtItem"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:hint="@string/hintTxtItem"
+            />
+
+        <Button
+            android:id="@+id/btnAdd"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/lblBtnAdd"
+            android:layout_toRightOf="@id/txtItem"
+            />
+
+        <TextView
+            android:id="@+id/empty"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtItem"
+            android:layout_margin="7dp"
+            android:text="Long click for reminder"
+            android:gravity="center_horizontal"
+            />
+            -->
+
+        <ListView
+            android:id="@+id/list"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:dividerHeight="10dp"
+            android:choiceMode="multipleChoice" >
+        </ListView>
+        <TextView
+            android:id="@+id/no_bullet_text"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="70dp"
+            android:padding="20dp"
+            android:layout_alignParentBottom="true"
+            android:textColor="@color/primary_dark"
+            android:text="@string/no_bullet"/>
+
+
+    </RelativeLayout>
+
+
+
+
+    <com.getbase.floatingactionbutton.FloatingActionButton
+        android:id="@+id/starred1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+
+        fab:fab_icon="@drawable/ic_notifications_off_grey600_24dp"
+        fab:fab_colorNormal="@color/accent"
+        fab:fab_colorPressed="@color/fab_pressed"
+        app:fab_size="normal"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="198dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="8dp"/>
+
+    <com.getbase.floatingactionbutton.FloatingActionButton
+        android:id="@+id/starred2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:onClick="selectFab2"
+        fab:fab_icon="@drawable/ic_notifications_on_white_24dp"
+        fab:fab_colorNormal="@color/accent"
+        fab:fab_colorPressed="@color/fab_pressed"
+        app:fab_size="normal"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="198dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="8dp"/>
+
+</RelativeLayout>
